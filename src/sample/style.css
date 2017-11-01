@@ -1,0 +1,45 @@
+.root{
+-fx-background-color: linear-gradient(#ffe4c4, #7fffd4);
+}
+
+.label{
+-fx-font-size: 20px;
+-fx-font-family: "Segoe UI Semibold";
+-fx-text-fill: #20b2aa;
+-fx-opacity: 0.99;
+-fx-padding: 5px;
+-fx-border-insets: 5px;
+-fx-background-insets: 5px;
+}
+
+
+.button{
+-fx-background-color:
+        linear-gradient(#7fffd4, #20b2aa),
+        radial-gradient(center 50% -40%, radius 200%, #7fffd4 45%, #20b2aa 50%);
+    -fx-background-radius: 6, 5;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 10pt;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-border-insets: 10px;
+    -fx-background-insets: 7px;
+}
+
+.combo-box .list-cell
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em;
+}
+
+.combo-box-base
+{
+    -fx-background-color: white, white, white, white;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+}
